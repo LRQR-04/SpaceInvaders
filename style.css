@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nave {
+  width: 80px;
+  height: 80px;
+  background-image: url(./imgs/nave.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: 50px;
+  left: calc(50vw - 40px);
+}
+
+body {
+  background-image: url(https://acegif.com/wp-content/uploads/gif/outerspace-70.gif);
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.bala {
+  width: 5px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 0px 40px 10px #ff0;
+  position: absolute;
+}
+
+.enemigo {
+  width: 50px;
+  height: 50px;
+  background-image: url(https://i.gifer.com/origin/83/8309d4ff45284e9db831cd7212448eef_w200.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+}
+
+#vidas {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  font-size: 1.5em;
+  color: #fff;
+  font-family: "Silkscreen", cursive;
+  font-weight: 800;
+}
+
+#times {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 2em;
+  color: #fff;
+  font-family: "Silkscreen", cursive;
+  font-weight: 800;
+}
