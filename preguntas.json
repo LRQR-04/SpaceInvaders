@@ -1,0 +1,630 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿En qué año comenzó la Primera Guerra Mundial?",
+    "opciones": ["1912", "1914", "1918"],
+    "respuesta": "1914"
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Quién fue el primer presidente de los Estados Unidos?",
+    "opciones": ["Thomas Jefferson", "Abraham Lincoln", "George Washington"],
+    "respuesta": "George Washington"
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Qué evento marcó el fin de la Edad Media en 1453?",
+    "opciones": [
+      "El descubrimiento de América",
+      "La caída de Constantinopla",
+      "La Revolución Francesa "
+    ],
+    "respuesta": "La caída de Constantinopla"
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Qué evento marcó el fin de la Edad Media en 1453?",
+    "opciones": [
+      "El descubrimiento de América",
+      "La caída de Constantinopla",
+      "La Revolución Francesa "
+    ],
+    "respuesta": "La caída de Constantinopla"
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Cuál fue la civilización que construyó las pirámides de Giza?",
+    "opciones": ["Maya", "Egipcia", "Azteca"],
+    "respuesta": "Egipcia"
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Quién fue el líder de la Revolución Rusa de 1917?",
+    "opciones": ["Vladimir Lenin", "Joseph Stalin", "León Trotski"],
+    "respuesta": "Vladimir Lenin"
+  },
+  {
+    "id": 7,
+    "pregunta": "¿En qué año se descubrió América?",
+    "opciones": ["1482", "1492", "1502"],
+    "respuesta": "1492"
+  },
+  {
+    "id": 8,
+    "pregunta": "¿Qué muro dividió la ciudad de Berlín durante la Guerra Fría?",
+    "opciones": ["Muro de Adriano", "Muro de Berlín", "Muro de Hierro"],
+    "respuesta": "Muro de Berlín"
+  },
+  {
+    "id": 9,
+    "pregunta": "¿Quién fue la primera mujer en ganar un Premio Nobel?",
+    "opciones": ["Marie Curie", "Rosalind Franklin", "Ada Lovelace"],
+    "respuesta": "Marie Curie"
+  },
+  {
+    "id": 10,
+    "pregunta": "¿Qué imperio conquistó Alejandro Magno?",
+    "opciones": ["Imperio Romano", "Imperio Persa", "Imperio Otomano"],
+    "respuesta": "Imperio Persa"
+  },
+  {
+    "id": 11,
+    "pregunta": "¿En qué año terminó la Segunda Guerra Mundial?",
+    "opciones": ["1944", "1945", "1946"],
+    "respuesta": "1945"
+  },
+  {
+    "id": 12,
+    "pregunta": "¿Quién escribió el \"Manifiesto Comunista\" junto a Engels?",
+    "opciones": ["Karl Marx", "Mijaíl Bakunin", "Adam Smith"],
+    "respuesta": "Karl Marx"
+  },
+  {
+    "id": 13,
+    "pregunta": "¿En qué ciudad fue asesinado el archiduque Francisco Fernando?",
+    "opciones": ["Viena", "Sarajevo", "Budapest"],
+    "respuesta": "Sarajevo"
+  },
+  {
+    "id": 14,
+    "pregunta": "¿Cuál era la moneda de España antes del euro?",
+    "opciones": ["Escudo", "Peseta", "Franco"],
+    "respuesta": "Peseta"
+  },
+  {
+    "id": 15,
+    "pregunta": "¿Qué reina británica gobernó durante la mayor parte del siglo XIX?",
+    "opciones": ["Isabel I", "Victoria", "Isabel II"],
+    "respuesta": "Victoria"
+  },
+  {
+    "id": 16,
+    "pregunta": "¿Qué país fue el centro del Imperio Inca?",
+    "opciones": ["Perú", "México", "Colombia"],
+    "respuesta": "Perú"
+  },
+  {
+    "id": 17,
+    "pregunta": "¿Quién inventó la imprenta de tipos móviles?",
+    "opciones": ["Leonardo da Vinci", "Johannes Gutenberg", "Isaac Newton"],
+    "respuesta": "Johannes Gutenberg"
+  },
+  {
+    "id": 18,
+    "pregunta": "¿Cuál fue la capital del Imperio Romano de Oriente?",
+    "opciones": ["Roma", "Constantinopla", "Atenas"],
+    "respuesta": "Constantinopla"
+  },
+  {
+    "id": 19,
+    "pregunta": "¿Qué presidente de EE. UU. fue asesinado en Dallas en 1963?",
+    "opciones": ["Richard Nixon", "John F. Kennedy", "Lyndon B. Johnson"],
+    "respuesta": "John F. Kennedy"
+  },
+  {
+    "id": 20,
+    "pregunta": "¿En qué año cayó la Unión Soviética (URSS)?",
+    "opciones": ["1989", "1991", "1993"],
+    "respuesta": "1991"
+  },
+  {
+    "id": 21,
+    "pregunta": "¿Quién dirigió la película \"Titanic\"?",
+    "opciones": ["Steven Spielberg", "James Cameron", "Christopher Nolan"],
+    "respuesta": "James Cameron"
+  },
+  {
+    "id": 22,
+    "pregunta": "¿En qué ciudad vive el superhéroe Batman?",
+    "opciones": ["Metrópolis", "Gotham City", "Central City"],
+    "respuesta": "Gotham City"
+  },
+  {
+    "id": 23,
+    "pregunta": "¿Cuál es el nombre del pseudónimo de Walter White en \"Breaking Bad\"?",
+    "opciones": ["Scarface", "Heisenberg", "Cap'n Cook"],
+    "respuesta": "Heisenberg"
+  },
+  {
+    "id": 24,
+    "pregunta": "¿Qué actor interpretó al Joker en \"The Dark Knight\" (2008)?",
+    "opciones": ["Jack Nicholson", "Jared Leto", "Heath Ledger"],
+    "respuesta": "Heath Ledger"
+  },
+  {
+    "id": 25,
+    "pregunta": "¿Cómo se llama el reino donde se desarrolla \"Game of Thrones\"?",
+    "opciones": ["Poniente / Westeros", "Narnia", "Tierra Media"],
+    "respuesta": "Poniente / Westeros"
+  },
+  {
+    "id": 26,
+    "pregunta": "¿Quién es el director de la película \"Pulp Fiction\"?",
+    "opciones": ["Martin Scorsese", "Quentin Tarantino", "David Fincher"],
+    "respuesta": "Quentin Tarantino"
+  },
+  {
+    "id": 27,
+    "pregunta": "¿Qué serie de Netflix trata sobre un atraco a la Fábrica Nacional de Moneda y Timbbre?",
+    "opciones": ["Élite", "La Casa de Papel", "Vis a Vis"],
+    "respuesta": "La Casa de Papel"
+  },
+  {
+    "id": 28,
+    "pregunta": "¿Cuál es la película más taquillera de la historia (sin ajustar inflación)?",
+    "opciones": ["Avengers: Endgame", "Avatar", "Titanic"],
+    "respuesta": "Avatar"
+  },
+  {
+    "id": 29,
+    "pregunta": "¿Cómo se llama el mejor amigo de Harry Potter?",
+    "opciones": ["Ron Weasley", "Neville Longbottom", "Draco Malfoy"],
+    "respuesta": "Ron Weasley"
+  },
+  {
+    "id": 30,
+    "pregunta": "¿Qué actor interpreta a Iron Man en el MCU?",
+    "opciones": ["Chris Evans", "Robert Downey Jr.", "Mark Ruffalo"],
+    "respuesta": "Robert Downey Jr."
+  },
+  {
+    "id": 31,
+    "pregunta": "¿En qué década se sitúa la serie \"Stranger Things\"?",
+    "opciones": ["Los 70", "Los 80", "Los 90"],
+    "respuesta": "Los 80"
+  },
+  {
+    "id": 32,
+    "pregunta": "¿Quién ganó el Oscar a Mejor Actor por \"Joker\" (2019)?",
+    "opciones": ["Joaquin Phoenix", "Leonardo DiCaprio", "Brad Pitt"],
+    "respuesta": "Joaquin Phoenix"
+  },
+  {
+    "id": 33,
+    "pregunta": "¿Cuál es la primera película de la saga \"Star Wars\" estrenada?",
+    "opciones": [
+      "El Imperio Contraataca",
+      "Una Nueva Esperanza",
+      "La Amenaza Fantasma"
+    ],
+    "respuesta": "Una Nueva Esperanza"
+  },
+  {
+    "id": 34,
+    "pregunta": "¿Cómo se llama el barman de \"Los Simpson\"?",
+    "opciones": ["Barney", "Moe", "Ned"],
+    "respuesta": "Moe"
+  },
+  {
+    "id": 35,
+    "pregunta": "¿Qué película de terror presenta a una niña poseída llamada Regan?",
+    "opciones": ["El Exorcista", "Poltergeist", "El Resplandor"],
+    "respuesta": "El Exorcista"
+  },
+  {
+    "id": 36,
+    "pregunta": "¿Quién es el protagonista de la saga \"Misión Imposible\"?",
+    "opciones": ["Matt Damon", "Tom Cruise", "Keanu Reeves"],
+    "respuesta": "Tom Cruise"
+  },
+  {
+    "id": 37,
+    "pregunta": "¿Cómo se llama el planeta de origen de Superman?",
+    "opciones": ["Marte", "Krypton", "Asgard"],
+    "respuesta": "Krypton"
+  },
+  {
+    "id": 38,
+    "pregunta": "¿Qué serie animada tiene como protagonistas a un científico y su nieto?",
+    "opciones": ["Family Guy", "Rick y Morty", "South Park"],
+    "respuesta": "Rick y Morty"
+  },
+  {
+    "id": 39,
+    "pregunta": "¿Quién dirigió \"El Laberinto del Fauno\"?",
+    "opciones": [
+      "Alfonso Cuarón",
+      "Guillermo del Toro",
+      "Alejandro G. Iñárritu"
+    ],
+    "respuesta": "Guillermo del Toro"
+  },
+  {
+    "id": 40,
+    "pregunta": "¿Qué actor interpreta a Jack Sparrow?",
+    "opciones": ["Orlando Bloom", "Johnny Depp", "Geoffrey Rush"],
+    "respuesta": "Johnny Depp"
+  },
+  {
+    "id": 41,
+    "pregunta": "¿Cuál es el país más grande del mundo por territorio?",
+    "opciones": ["Canadá", "Rusia", "China"],
+    "respuesta": "Rusia"
+  },
+  {
+    "id": 42,
+    "pregunta": "¿Cuál es la capital de Japón?",
+    "opciones": ["Kioto", "Tokio", "Osaka"],
+    "respuesta": "Tokio"
+  },
+  {
+    "id": 43,
+    "pregunta": "¿Cuál es el río más largo del mundo?",
+    "opciones": ["Nilo", "Amazonas", "Misisipi"],
+    "respuesta": "Amazonas"
+  },
+  {
+    "id": 44,
+    "pregunta": "¿En qué continente se encuentra el desierto del Sahara?",
+    "opciones": ["Asia", "África", "Oceanía"],
+    "respuesta": "África"
+  },
+  {
+    "id": 45,
+    "pregunta": "¿Cuál es la montaña más alta del mundo?",
+    "opciones": ["K2", "Monte Everest", "Kilimanjaro"],
+    "respuesta": "Monte Everest"
+  },
+  {
+    "id": 46,
+    "pregunta": "¿Qué país tiene forma de bota?",
+    "opciones": ["Grecia", "Italia", "Portugal"],
+    "respuesta": "Italia"
+  },
+  {
+    "id": 47,
+    "pregunta": "¿Cuál es el océano más grande?",
+    "opciones": ["Océano Atlántico", "Océano Pacífico", "Océano Índico"],
+    "respuesta": "Océano Pacífico"
+  },
+  {
+    "id": 48,
+    "pregunta": "¿En qué país se encuentra la Gran Muralla?",
+    "opciones": ["China", "India", "Japón"],
+    "respuesta": "China"
+  },
+  {
+    "id": 49,
+    "pregunta": "¿Cuál es la capital de Francia?",
+    "opciones": ["Lyon", "Marsella", "París"],
+    "respuesta": "París"
+  },
+  {
+    "id": 50,
+    "pregunta": "¿Cuál es la isla más grande del mundo?",
+    "opciones": ["Australia", "Groenlandia", "Madagascar"],
+    "respuesta": "Groenlandia"
+  },
+  {
+    "id": 51,
+    "pregunta": "¿Qué estrecho separa a España de Marruecos?",
+    "opciones": [
+      "Estrecho de Magallanes",
+      "Estrecho de Gibraltar",
+      "Estrecho de Bering"
+    ],
+    "respuesta": "Estrecho de Gibraltar"
+  },
+  {
+    "id": 52,
+    "pregunta": "¿Cuál es la capital de Australia?",
+    "opciones": ["Sídney", "Melbourne", "Canberra"],
+    "respuesta": "Canberra"
+  },
+  {
+    "id": 53,
+    "pregunta": "¿Qué país tiene la mayor población del mundo?",
+    "opciones": ["China", "India", "Estados Unidos"],
+    "respuesta": "India"
+  },
+  {
+    "id": 54,
+    "pregunta": "¿Cuál es el desierto más seco del mundo?",
+    "opciones": ["Sahara", "Atacama", "Gobi"],
+    "respuesta": "Atacama"
+  },
+  {
+    "id": 55,
+    "pregunta": "¿En qué ciudad se encuentra el Coliseo?",
+    "opciones": ["Atenas", "Roma", "Estambul"],
+    "respuesta": "Roma"
+  },
+  {
+    "id": 56,
+    "pregunta": "¿Qué país es conocido como el \"País del Sol Naciente\"?",
+    "opciones": ["China", "Japón", "Tailandia"],
+    "respuesta": "Japón"
+  },
+  {
+    "id": 57,
+    "pregunta": "¿Cuál es la capital de Italia?",
+    "opciones": ["Milán", "Venecia", "Roma"],
+    "respuesta": "Roma"
+  },
+  {
+    "id": 58,
+    "pregunta": "¿Qué cordillera atraviesa América del Sur?",
+    "opciones": ["Los Alpes", "Los Andes", "Las Rocosas"],
+    "respuesta": "Los Andes"
+  },
+  {
+    "id": 59,
+    "pregunta": "¿Cuál es el país más pequeño del mundo?",
+    "opciones": ["Mónaco", "Ciudad del Vaticano", "San Marino"],
+    "respuesta": "Ciudad del Vaticano"
+  },
+  {
+    "id": 60,
+    "pregunta": "¿Cuál es la capital de Alemania?",
+    "opciones": ["Múnich", "Frankfurt", "Berlín"],
+    "respuesta": "Berlín"
+  },
+  {
+    "id": 61,
+    "pregunta": "¿Cuál es el elemento químico con el símbolo \"Au\"?",
+    "opciones": ["Plata", "Oro", "Cobre"],
+    "respuesta": "Oro"
+  },
+  {
+    "id": 62,
+    "pregunta": "¿Qué gas es esencial para que los humanos respiren?",
+    "opciones": ["Nitrógeno", "Dióxido de carbono", "Oxígeno"],
+    "respuesta": "Oxígeno"
+  },
+  {
+    "id": 63,
+    "pregunta": "¿Cuál es el planeta más cercano al Sol?",
+    "opciones": ["Mercurio", "Venus", "Marte"],
+    "respuesta": "Mercurio"
+  },
+  {
+    "id": 64,
+    "pregunta": "¿Quién formuló la teoría de la relatividad?",
+    "opciones": ["Isaac Newton", "Albert Einstein", "Stephen Hawking"],
+    "respuesta": "Albert Einstein"
+  },
+  {
+    "id": 65,
+    "pregunta": "¿Cuál es el hueso más largo del cuerpo humano?",
+    "opciones": ["Húmero", "Fémur", "Tibia"],
+    "respuesta": "Fémur"
+  },
+  {
+    "id": 66,
+    "pregunta": "¿Qué metal es líquido a temperatura ambiente?",
+    "opciones": ["Mercurio", "Plomo", "Hierro"],
+    "respuesta": "Mercurio"
+  },
+  {
+    "id": 67,
+    "pregunta": "¿Quién descubrió la penicilina?",
+    "opciones": ["Louis Pasteur", "Alexander Fleming", "Gregor Mendel"],
+    "respuesta": "Alexander Fleming"
+  },
+  {
+    "id": 68,
+    "pregunta": "¿Cuántos huesos tiene un adulto humano promedio?",
+    "opciones": ["186", "206", "226"],
+    "respuesta": "206"
+  },
+  {
+    "id": 69,
+    "pregunta": "¿Cuál es el planeta más grande del sistema solar?",
+    "opciones": ["Saturno", "Júpiter", "Neptuno"],
+    "respuesta": "Júpiter"
+  },
+  {
+    "id": 70,
+    "pregunta": "¿Qué proceso usan las plantas para fabricar su alimento?",
+    "opciones": ["Respiración", "Fotosíntesis", "Ósmosis"],
+    "respuesta": "Fotosíntesis"
+  },
+  {
+    "id": 71,
+    "pregunta": "¿Cuál es el satélite natural de la Tierra?",
+    "opciones": ["Sol", "Luna", "Marte"],
+    "respuesta": "Luna"
+  },
+  {
+    "id": 72,
+    "pregunta": "¿Cuál es la fórmula química del agua?",
+    "opciones": ["HO2", "H2O", "CO2"],
+    "respuesta": "H2O"
+  },
+  {
+    "id": 73,
+    "pregunta": "¿Qué animal es el mamífero más grande del mundo?",
+    "opciones": ["Elefante africano", "Ballena azul", "Tiburón ballena"],
+    "respuesta": "Ballena azul"
+  },
+  {
+    "id": 74,
+    "pregunta": "¿Cuál es el centro de un átomo?",
+    "opciones": ["Electrón", "Núcleo", "Protón"],
+    "respuesta": "Núcleo"
+  },
+  {
+    "id": 75,
+    "pregunta": "¿Qué tipo de animal es un delfín?",
+    "opciones": ["Pez", "Mamífero", "Reptil"],
+    "respuesta": "Mamífero"
+  },
+  {
+    "id": 76,
+    "pregunta": "¿Cuál es la estrella más cercana a la Tierra?",
+    "opciones": ["Alfa Centauri", "El Sol", "Sirio"],
+    "respuesta": "El Sol"
+  },
+  {
+    "id": 77,
+    "pregunta": "¿Quién propuso la teoría de la evolución por selección natural?",
+    "opciones": ["Charles Darwin", "Jean-Baptiste Lamarck", "Richard Dawkins"],
+    "respuesta": "Charles Darwin"
+  },
+  {
+    "id": 78,
+    "pregunta": "¿Cuál es el primer elemento de la tabla periódica?",
+    "opciones": ["Helio", "Hidrógeno", "Litio"],
+    "respuesta": "Hidrógeno"
+  },
+  {
+    "id": 79,
+    "pregunta": "¿Qué órgano bombea la sangre por todo el cuerpo?",
+    "opciones": ["Pulmones", "Corazón", "Cerebro"],
+    "respuesta": "Corazón"
+  },
+  {
+    "id": 80,
+    "pregunta": "¿Cómo se llama la galaxia en la que vivimos?",
+    "opciones": ["Andrómeda", "Vía Láctea", "Sombrero"],
+    "respuesta": "Vía Láctea"
+  },
+  {
+    "id": 81,
+    "pregunta": "¿Quién pintó la \"Mona Lisa\"?",
+    "opciones": ["Miguel Ángel", "Leonardo da Vinci", "Rafael"],
+    "respuesta": "Leonardo da Vinci"
+  },
+  {
+    "id": 82,
+    "pregunta": "¿Quién escribió \"Don Quijote de la Mancha\"?",
+    "opciones": [
+      "Lope de Vega",
+      "Miguel de Cervantes",
+      "Federico García Lorca"
+    ],
+    "respuesta": "Miguel de Cervantes"
+  },
+  {
+    "id": 83,
+    "pregunta": "¿En qué ciudad se encuentra el Museo del Louvre?",
+    "opciones": ["Londres", "París", "Madrid"],
+    "respuesta": "París"
+  },
+  {
+    "id": 84,
+    "pregunta": "¿Quién es el autor de \"Hamlet\"?",
+    "opciones": ["William Shakespeare", "Charles Dickens", "Dante Alighieri"],
+    "respuesta": "William Shakespeare"
+  },
+  {
+    "id": 85,
+    "pregunta": "¿Qué pintor es famoso por cortarse una oreja?",
+    "opciones": ["Pablo Picasso", "Vincent van Gogh", "Salvador Dalí"],
+    "respuesta": "Vincent van Gogh"
+  },
+  {
+    "id": 86,
+    "pregunta": "¿Quién escribió \"Cien años de soledad\"?",
+    "opciones": [
+      "Mario Vargas Llosa",
+      "Gabriel García Márquez",
+      "Julio Cortázar"
+    ],
+    "respuesta": "Gabriel García Márquez"
+  },
+  {
+    "id": 87,
+    "pregunta": "¿Quién esculpió el \"David\" de mármol?",
+    "opciones": ["Donatello", "Miguel Ángel", "Bernini"],
+    "respuesta": "Miguel Ángel"
+  },
+  {
+    "id": 88,
+    "pregunta": "¿Cuál es el libro más vendido del mundo después de la Biblia?",
+    "opciones": ["Harry Potter", "Don Quijote de la Mancha", "El Principito"],
+    "respuesta": "Don Quijote de la Mancha"
+  },
+  {
+    "id": 89,
+    "pregunta": "¿Qué corriente artística lideró Salvador Dalí?",
+    "opciones": ["Cubismo", "Surrealismo", "Impresionismo"],
+    "respuesta": "Surrealismo"
+  },
+  {
+    "id": 90,
+    "pregunta": "¿Quién pintó el \"Guernica\"?",
+    "opciones": ["Joan Miró", "Pablo Picasso", "Diego Velázquez"],
+    "respuesta": "Pablo Picasso"
+  },
+  {
+    "id": 91,
+    "pregunta": "¿Qué autor escribió \"El Principito\"?",
+    "opciones": ["Antoine de Saint-Exupéry", "Victor Hugo", "Marcel Proust"],
+    "respuesta": "Antoine de Saint-Exupéry"
+  },
+  {
+    "id": 92,
+    "pregunta": "¿Quién es el autor de \"La Odisea\"?",
+    "opciones": ["Sófocles", "Homero", "Platón"],
+    "respuesta": "Homero"
+  },
+  {
+    "id": 93,
+    "pregunta": "¿Qué compositor escribió la \"Quinta Sinfonía\"?",
+    "opciones": ["Mozart", "Beethoven", "Bach"],
+    "respuesta": "Beethoven"
+  },
+  {
+    "id": 94,
+    "pregunta": "¿En qué país nació Frida Kahlo?",
+    "opciones": ["España", "México", "Argentina"],
+    "respuesta": "México"
+  },
+  {
+    "id": 95,
+    "pregunta": "¿Quién escribió \"Romeo y Julieta\"?",
+    "opciones": ["William Shakespeare", "Oscar Wilde", "Mark Twain"],
+    "respuesta": "William Shakespeare"
+  },
+  {
+    "id": 96,
+    "pregunta": "¿Cuál es el instrumento que tiene 88 teclas?",
+    "opciones": ["Órgano", "Piano", "Arpa"],
+    "respuesta": "Piano"
+  },
+  {
+    "id": 97,
+    "pregunta": "¿Qué artista pintó \"La noche estrellada\"?",
+    "opciones": ["Claude Monet", "Vincent van Gogh", "Edvard Munch"],
+    "respuesta": "Vincent van Gogh"
+  },
+  {
+    "id": 98,
+    "pregunta": "¿Quién escribió la saga de \"Harry Potter\"?",
+    "opciones": ["Stephen King", "J.K. Rowling", "George R.R. Martin"],
+    "respuesta": "J.K. Rowling"
+  },
+  {
+    "id": 99,
+    "pregunta": "¿A qué país pertenece el estilo de dibujo \"Manga\"?",
+    "opciones": ["Corea del Sur", "Japón", "China"],
+    "respuesta": "Japón"
+  },
+  {
+    "id": 100,
+    "pregunta": "¿Quién escribió \"La Divina Comedia\"?",
+    "opciones": ["Maquiavelo", "Dante Alighieri", "Petrarca"],
+    "respuesta": "Dante Alighieri"
+  }
+]
