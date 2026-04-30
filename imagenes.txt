@@ -1,0 +1,8 @@
+Enemigo: https://framerusercontent.com/images/gAkgciSiY2TXZDc1Yyzj74GUXDY.gif
+Enemigo2: https://images.emojiterra.com/google/noto-emoji/animated-emoji/1f47e.gif
+Enemigo3: https://www.educaciontrespuntocero.com/wp-content/uploads/2016/03/si-px.gif
+Enemigo4: https://www.sdjv72.fr/wp-content/uploads/2019/02/SIDEF.gif
+Enemigo5: https://images.squarespace-cdn.com/content/v1/5fba58582c9d4143d9022adf/768b567b-e1c0-42d9-8d94-aefe7886334c/Gorf-2.gif
+Nave: https://haikyuuniverse.carrd.co/assets/images/image01.gif?v51487294211651
+Fondo: https://acegif.com/wp-content/uploads/gif/outerspace-70.gif
+Fondo2: https://github.com/REC-1104/SpaceInvaders/blob/master/images/bg.gif?raw=true
