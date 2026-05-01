@@ -1,64 +1,253 @@
-@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+  font-family: "Press Start 2P", cursive;
+  overflow: hidden;
+  color: #ffff00;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+body.menu-bg::before {
+  background: url("./imgs/fondo.gif") no-repeat center center/cover;
+}
+
+body.game-bg::before {
+  background: url("https://acegif.com/wp-content/uploads/gif/outerspace-70.gif")
+    no-repeat center center/cover;
+}
+
+.hidden {
+  display: none;
+}
+
+#menu {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+#menu h1 {
+  font-size: 28px;
+  color: #ffff00;
+  text-shadow: 0 0 10px #ffff00;
+}
+
+#startBtn {
+  padding: 15px 30px;
+  font-size: 14px;
+  background: black;
+  color: #ffff00;
+  border: 3px solid #ffff00;
+  border-radius: 12px;
+  cursor: pointer;
+
+  box-shadow:
+    0 0 10px #ffff00,
+    inset 0 0 5px #ffff00;
+
+  transition: all 0.2s ease;
+}
+
+#startBtn:hover {
+  background: #ffff00;
+  color: black;
+}
+
+#startBtn:active {
+  transform: scale(0.95);
+}
+
+#game {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+#hud {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+#vidas {
+  display: flex;
+  gap: 6px;
+}
+
+.vida {
+  width: 20px;
+  height: 10px;
+  background: #00ff00;
+  border: 2px solid #ffff00;
+  box-shadow: 0 0 5px #00ff00;
+}
+
 .nave {
   width: 80px;
   height: 80px;
-  background-image: url(./imgs/nave.png);
+  background-image: url("https://haikyuuniverse.carrd.co/assets/images/image01.gif?v51487294211651");
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
   bottom: 50px;
-  left: calc(50vw - 40px);
-}
-
-body {
-  background-image: url(https://acegif.com/wp-content/uploads/gif/outerspace-70.gif);
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
+  left: calc(50% - 40px);
 }
 
 .bala {
   width: 5px;
   height: 30px;
   background-color: #fff;
-  border-radius: 15px;
-  box-shadow: 0px 0px 40px 10px #ff0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ff0;
   position: absolute;
 }
 
 .enemigo {
   width: 50px;
   height: 50px;
-  background-image: url(https://i.gifer.com/origin/83/8309d4ff45284e9db831cd7212448eef_w200.gif);
-  background-repeat: no-repeat;
   background-size: contain;
+  background-repeat: no-repeat;
   position: absolute;
+}
+
+.explosion {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-image: url("./imgs/exp.png");
+  background-size: cover;
+  pointer-events: none;
+}
+
+#quizModal {
+  position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(6px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
 }
 
-#vidas {
-  position: absolute;
-  top: 50px;
-  right: 20px;
-  font-size: 1.5em;
-  color: #fff;
-  font-family: "Silkscreen", cursive;
-  font-weight: 800;
+#quizModal.hidden {
+  display: none;
 }
 
-#times {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  font-size: 2em;
+.modal-content {
+  background: #111;
+  border-radius: 16px;
+  padding: 25px;
+  width: 420px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(255, 255, 0, 0.3);
+  border: 2px solid #ffff00;
+  animation: fadeIn 0.3s ease;
+}
+
+.modal-content h2 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+#opciones button {
+  display: block;
+  margin: 8px auto;
+  padding: 12px;
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  background: #222;
   color: #fff;
-  font-family: "Silkscreen", cursive;
-  font-weight: 800;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#opciones button:hover {
+  background: #ffff00;
+  color: black;
+}
+
+#timer {
+  margin-top: 15px;
+  font-size: 22px;
+  color: #ff4444;
+}
+
+#endScreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(6px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+#endScreen.hidden {
+  display: none;
+}
+
+.end-content {
+  background: #111;
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  border: 2px solid yellow;
+  box-shadow: 0 0 20px rgba(255, 255, 0, 0.3);
+}
+
+.end-content h1 {
+  margin-bottom: 20px;
+}
+
+.end-content p {
+  margin: 8px 0;
+}
+
+#restartBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: black;
+  color: yellow;
+  border: 2px solid yellow;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
