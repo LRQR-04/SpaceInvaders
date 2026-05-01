@@ -4,19 +4,64 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <title>Space Invaders</title>
 </head>
 
 <body>
-  <span id="vidas">Lives:<i>3</i></span>
-  <span id="times"></span>
-  <div class="nave" id="nave"></div>
-  <audio src="#" id="explosion"></audio>
-  <script type="text/javascript" src="script.js"></script>
+  <div id="menu">
+    <h1>SPACE INVADERS</h1>
+    <button id="startBtn">Press to start</button>
+  </div>
+
+  <div id="game" class="hidden">
+    <div id="hud">
+      <span id="score">SCORE: 0</span>
+
+      <div id="vidas">
+        <div class="vida"></div>
+        <div class="vida"></div>
+        <div class="vida"></div>
+        <div class="vida"></div>
+        <div class="vida"></div>
+      </div>
+    </div>
+
+    <div class="nave" id="nave"></div>
+  </div>
+
+  <div id="endScreen" class="hidden">
+    <div class="end-content">
+      <h1 id="resultadoTitulo"></h1>
+
+      <p id="finalScore"></p>
+      <p id="finalPreguntas"></p>
+      <p id="finalCorrectas"></p>
+
+      <button id="restartBtn">Volver a jugar</button>
+    </div>
+  </div>
+
+  <div id="quizModal" class="hidden">
+    <div class="modal-content">
+      <h2 id="pregunta"></h2>
+
+      <div id="opciones"></div>
+
+      <div id="timer">6</div>
+    </div>
+  </div>
+
+  <audio id="correctSound" src="./audios/correcto.mp3"></audio>
+  <audio id="wrongSound" src="./audios/incorrecto.mp3"></audio>
+  <audio id="timerSound" src="./audios/timer.mp3"></audio>
+
+  <audio id="explosion" src="./audios/explosion.mp3"></audio>
+  <audio id="shootSound" src="./audios/shoot.wav"></audio>
+  <audio id="damageSound" src="./audios/damage.mp3"></audio>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
